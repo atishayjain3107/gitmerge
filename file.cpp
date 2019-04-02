@@ -10,6 +10,15 @@ int main()
 
     	cout << "Enter two operands: ";
     	cin >> num1 >> num2;
+	
+	case '-':
+            cout << num1-num2;
+            break;
+
+        case '*':
+            cout << num1*num2;
+            break;
+	
 	return(0);
 }
 
